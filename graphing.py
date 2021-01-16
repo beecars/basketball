@@ -85,7 +85,7 @@ def violin_swarm_box_scores(fig, ax, violin_data, swarm_data, stat_header, orien
         ax.set_ylim(bottom = 0, top = swarm_data[stat_header].max()*1.15)
         ax.axes.get_yaxis().get_label().set_visible(False)
         
-def generate_box_score_figure(player_id, this_season, savedir = 'C:\\Users\\besid\\Desktop\\'):
+def generate_box_score_figure(player_id, this_season, savedir = 'C:\\.py_workspace\\basketball\\boxscores\\'):
 
     nba_cooldown = random.gammavariate(alpha=9, beta=0.4)
 
